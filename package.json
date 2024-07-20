@@ -14,7 +14,7 @@
   "keywords": [
     "heroku"
   ],
-  "author": "Paul Melnikow",
+  "author": "Metabolize LLC",
   "license": "MIT",
   "homepage": "https://github.com/metabolize/infer-heroku-server-url#readme",
   "devDependencies": {
