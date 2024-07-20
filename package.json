@@ -2,7 +2,7 @@
   "name": "infer-heroku-server-url",
   "version": "1.0.0-alpha.0",
   "description": "Infer the server URL on Heroku",
-  "main": "src",
+  "main": "dist",
   "scripts": {
     "build": "tsup src/index.ts",
     "check-types": "tsc --noEmit",
