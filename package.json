@@ -1,0 +1,26 @@
+{
+  "name": "infer-heroku-server-url",
+  "version": "1.0.0-alpha.0",
+  "description": "Infer the server URL on Heroku",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint",
+    "format:check": "prettier --check \"**/*.@(ts|tsx|js|cjs|md|json|yml)\"",
+    "format:fix": "prettier --write \"**/*.@(ts|tsx|js|cjs|md|json|yml)\""
+  },
+  "repository": "metabolize/infer-heroku-server-url",
+  "keywords": [
+    "heroku"
+  ],
+  "author": "Paul Melnikow",
+  "license": "MIT",
+  "homepage": "https://github.com/metabolize/infer-heroku-server-url#readme",
+  "devDependencies": {
+    "neostandard": "^0.11.1",
+    "prettier": "^3.3.3",
+    "tsup": "8.2.1",
+    "typescript": "5.5.3"
+  }
+}
