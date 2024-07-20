@@ -18,9 +18,10 @@
   "license": "MIT",
   "homepage": "https://github.com/metabolize/infer-heroku-server-url#readme",
   "devDependencies": {
-    "globals": "^15.8.0",
-    "neostandard": "^0.11.1",
-    "prettier": "^3.3.3",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "globals": "15.8.0",
+    "neostandard": "0.11.1",
+    "prettier": "3.3.3",
     "tsup": "8.2.1",
     "typescript": "5.5.3"
   }
