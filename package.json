@@ -3,6 +3,9 @@
   "version": "1.0.0-alpha.1",
   "description": "Infer the server URL on Heroku",
   "main": "dist",
+  "files": [
+    "dist/**/*.@(js|ts|map)"
+  ],
   "scripts": {
     "build": "tsup src/index.ts",
     "check-types": "tsc --noEmit",
