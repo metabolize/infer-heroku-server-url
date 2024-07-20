@@ -4,7 +4,7 @@
   "description": "Infer the server URL on Heroku",
   "main": "src",
   "scripts": {
-    "build": "tsup src/index.js",
+    "build": "tsup src/index.ts",
     "check-types": "tsc --noEmit",
     "lint": "eslint",
     "format:check": "prettier --check \"**/*.@(ts|tsx|js|cjs|md|json|yml)\"",
