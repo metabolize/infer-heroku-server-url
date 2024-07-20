@@ -2,9 +2,9 @@
   "name": "infer-heroku-server-url",
   "version": "1.0.0-alpha.0",
   "description": "Infer the server URL on Heroku",
-  "main": "index.js",
+  "main": "src",
   "scripts": {
-    "build": "tsup",
+    "build": "tsup src/index.js",
     "check-types": "tsc --noEmit",
     "lint": "eslint",
     "format:check": "prettier --check \"**/*.@(ts|tsx|js|cjs|md|json|yml)\"",
